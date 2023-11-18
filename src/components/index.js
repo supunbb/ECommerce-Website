@@ -10,7 +10,7 @@ import Business from "./Business";
 import Button from "./Button";
 import CardDeal from "./CardDeal";
 
-export{
+export {
     Navbar,
     Billing,
     CardDeal,
