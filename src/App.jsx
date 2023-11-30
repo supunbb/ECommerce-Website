@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './style';
 import {Billing,CardDeal,Business,
-  Clients,CTA,Stats,Footer,Testimonials,Hero} from './components'
+  Clients,CTA,Stats,Footer,Testimonials,Hero,Navbar} from './components'
 
 const App = () => (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          {/* <Navbar/> */}
+          {<Navbar/>}
         </div>
       </div> 
   
